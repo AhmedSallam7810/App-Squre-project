@@ -18,4 +18,4 @@ const usetoken = (state = initialState, action) => {
   }
 };
 
-module.exports = { usetoken };
+export default usetoken ;

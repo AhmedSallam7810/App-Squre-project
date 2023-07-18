@@ -23,6 +23,6 @@ async function add_client(token, newClient) {
   return response.status;
 }
 
-module.exports = {
-  add_client,
-};
+export default
+  add_client;
+

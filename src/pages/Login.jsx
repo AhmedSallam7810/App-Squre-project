@@ -3,7 +3,7 @@ import { Alert } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { login } from "../store/actions";
-import { loginFun } from "../services/loginService";
+import loginFun from "../services/loginService";
 
 function Login() {
   const [email, setemail] = useState("");

@@ -26,4 +26,4 @@ async function deleteById(token,id) {
   }
 }
 
-module.exports = { deleteById };
+export default deleteById ;

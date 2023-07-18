@@ -36,7 +36,4 @@ async function fetchById(token, id) {
   return result.data;
 }
 
-module.exports = {
-  fetchAllData,
-  fetchById,
-};
+export { fetchAllData, fetchById };

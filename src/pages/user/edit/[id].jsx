@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { redirect, useNavigate, useParams } from "react-router-dom";
 import { LeftOutlined } from "@ant-design/icons";
 import { fetchById } from "../../../services/fetchData";
-import { edit_client } from "../../../services/editData";
+import edit_client from "../../../services/editData";
 import { useSelector } from "react-redux";
 
 const Add = () => {

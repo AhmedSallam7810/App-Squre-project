@@ -25,6 +25,4 @@ async function edit_client(token, id, data) {
   return result.status;
 }
 
-module.exports = {
-  edit_client,
-};
+export default edit_client;

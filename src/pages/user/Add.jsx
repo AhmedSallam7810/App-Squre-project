@@ -1,6 +1,6 @@
 import { Select, Space, Button, Form, Input, Radio } from "antd";
 import React, { useState } from "react";
-import { add_client } from "../../services/addData";
+import  add_client  from "../../services/addData";
 import { useNavigate, useParams } from "react-router-dom";
 import { LeftOutlined } from "@ant-design/icons";
 import { useSelector } from "react-redux";

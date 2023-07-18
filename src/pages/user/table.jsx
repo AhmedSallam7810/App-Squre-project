@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Space, Table } from "antd";
 import { fetchAllData } from "../../services/fetchData";
-import { deleteById } from "../../services/deleteData";
+import deleteById from "../../services/deleteData";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 

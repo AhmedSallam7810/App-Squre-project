@@ -17,4 +17,4 @@ const loginFun = async (email, password) => {
   return response;
 };
 
-module.exports = { loginFun };
+export default loginFun;
