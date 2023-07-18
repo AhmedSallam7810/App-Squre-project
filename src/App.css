@@ -1,0 +1,182 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Center the container vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Position the social icons to the right */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+/* Style the social icons */
+.social-icons a {
+  color: #555;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+/* Center the content horizontally */
+.content {
+  margin-top: 9%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Style the App Square text */
+.app-square {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Style the description text */
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Style the Get Started button */
+.get-started {
+  padding: 1rem 2rem;
+  margin: 1rem 0rem;
+  font-size: 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.get-started:hover {
+  background-color: #555;
+}
+
+.sign-word {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+/* Style the input fields */
+.input {
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* Style the Log In button */
+.button {
+  padding: 0.8rem 1.8rem;
+  font-size: 1.3rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.small-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.back-button {
+  display: flex;
+  padding: 8px 25px;
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #333;
+}
+
+.small-button:hover {
+  background-color: #333;
+}
+.button:hover {
+  background-color: #555;
+}
+
+/* Style the sign up link */
+.signup-link {
+  font-size: 1.2rem;
+}
+
+.signup-link a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.signup-link a:hover {
+  color: #555;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #333;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
