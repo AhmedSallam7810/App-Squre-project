@@ -1,6 +1,8 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+you can see website from here [](https://app-squre-project-1a4u.vercel.app/).
+email : hr@gmail.com
+password:123456789
 
 ## Available Scripts
 
